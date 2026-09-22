@@ -364,7 +364,7 @@ export default function Hero() {
       )}
 
       {/* Papan skor statistik */}
-      <div className="relative z-20 mt-14 md:mt-20">
+      {/*<div className="relative z-20 mt-14 md:mt-20">
         <p className="hero-rise text-center text-white/40 text-[10px] sm:text-xs uppercase tracking-[0.3em] mb-5" style={{ animationDelay: "0.8s" }}>
           Statistik Turnamen
         </p>
@@ -374,7 +374,7 @@ export default function Hero() {
           ))}
         </div>
         
-      </div>
+      </div>*/}
 
       <button
         onClick={scrollToNext}

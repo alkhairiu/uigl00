@@ -198,7 +198,7 @@ export default function Footer() {
         <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-5 md:flex-row md:items-center md:justify-between md:px-8">
 
           <p className="font-body text-xs text-white/35">
-            © {new Date().getFullYear()} ARENA Esports Championship.
+            © {new Date().getFullYear()} UI Games League
           </p>
 
           <p className="font-body text-[10px] text-white/25">

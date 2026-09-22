@@ -496,7 +496,7 @@ export default function HomePage() {
           <SectionDivider />
 
           {/* SPONSORS */}
-          <Sponsors />
+          {/*<Sponsors />*/}
 
           <SectionDivider />
 
