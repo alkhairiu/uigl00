@@ -231,7 +231,7 @@ export default function Navbar() {
 
         <div className="hidden md:block">
           <Link
-            to="/register"
+            to="/plan"
             className="
               group
               inline-flex
@@ -417,7 +417,7 @@ export default function Navbar() {
 
               <li className="pt-2">
                 <Link
-                  to="/register"
+                  to="/plan"
                   onClick={() => setOpen(false)}
                   className="
                     flex

@@ -155,13 +155,14 @@ function GameHero({ game, Icon }) {
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
-            <Link
-              to="/register"
+            <a
+              href="https://www.google.com"
+              target="_blank"
               className="group inline-flex items-center gap-2 rounded-full bg-gold-300 px-6 py-3 text-sm font-bold text-[#062B4F] transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-200"
             >
               Register Now
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Link>
+            </a>
 
             <button
               type="button"

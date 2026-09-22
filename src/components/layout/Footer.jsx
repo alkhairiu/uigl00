@@ -34,9 +34,10 @@ export default function Footer() {
 
             {/* DESCRIPTION */}
             <p className="max-w-md font-body text-sm leading-6 text-white/60">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Consequatur quia placeat blanditiis perferendis, vero possimus, vel magnam consectetur accusantium
-               reprehenderit debitis numquam, corrupti nihil eos minima quibusdam voluptatem. Dolore, amet!
+              UI Games League 2026 merupakan program kerja eksternal berskala nasional yang dirancang
+              sebagai turnamen esports kompetitif dan terstruktur, terbuka baagi siswa SMA sederajat
+              dan mahasiswa. Kegiatan ini hadir sebagai wadah pengembangan prestasi, pembangunan
+              semangat sportivitas, serta penguatan ekosistem esports di kalangan generasi muda.
             </p>
 
             {/* DECORATIVE LINE */}
@@ -111,7 +112,7 @@ export default function Footer() {
                   className="group flex items-center gap-2 transition-colors duration-200 hover:text-gold-300"
                 >
                   <span className="h-px w-0 bg-gold-300 transition-all duration-200 group-hover:w-4" />
-                  Lorem ipsum
+                  {/* sponsor 1 */}
                 </Link>
               </li>
 
@@ -121,7 +122,7 @@ export default function Footer() {
                   className="group flex items-center gap-2 transition-colors duration-200 hover:text-gold-300"
                 >
                   <span className="h-px w-0 bg-gold-300 transition-all duration-200 group-hover:w-4" />
-                  Lorem Ipsum
+                  {/* sponsor 2*/}
                 </Link>
               </li>
 
@@ -131,7 +132,7 @@ export default function Footer() {
                   className="group flex items-center gap-2 transition-colors duration-200 hover:text-gold-300"
                 >
                   <span className="h-px w-0 bg-gold-300 transition-all duration-200 group-hover:w-4" />
-                  Lorem ipsum
+                  {/* sponsor 3 */}
                 </Link>
               </li>
 
