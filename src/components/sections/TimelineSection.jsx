@@ -6,27 +6,27 @@ const steps = [
   {
     number: "01",
     title: "Pendaftaran Dibuka",
-    desc: "1 – 20 September 2026",
+    //desc: "1 – 20 September 2026",
   },
   {
     number: "02",
     title: "Verifikasi Tim",
-    desc: "21 – 23 September 2026",
+    //desc: "21 – 23 September 2026",
   },
   {
     number: "03",
     title: "Technical Meeting",
-    desc: "24 September 2026",
+    //desc: "24 September 2026",
   },
   {
     number: "04",
     title: "Babak Penyisihan",
-    desc: "26 – 30 September 2026",
+    //desc: "26 – 30 September 2026",
   },
   {
     number: "05",
     title: "Grand Final",
-    desc: "4 Oktober 2026",
+    // desc: "4 Oktober 2026",
   },
 ];
 

@@ -346,9 +346,6 @@ export default function Hero() {
               style={{ animationDelay: "0.6s" }}
             >
               <MagneticButton to="/plan" variant="gold">
-                Lihat Kompetisi
-              </MagneticButton>
-              <MagneticButton to="/register" variant="outline">
                 Daftar Sekarang
               </MagneticButton>
             </div>
