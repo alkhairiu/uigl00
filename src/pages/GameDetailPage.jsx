@@ -194,12 +194,14 @@ function GameHero({ game, Icon }) {
 
           <div className="mt-7 flex flex-wrap gap-3">
             <RegisterButton/>
-            <button
+            <a
+              href="https://docs.google.com/document/d/1lCkZ7vK8wodZbJC2g3g_tbLS1LAvQXMEzIR-b_zeNak/edit?usp=sharing"
+              target="_blank"
               type="button"
               className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white/70 transition-colors hover:border-gold-300/40 hover:text-gold-300"
             >
-              Guidebook
-            </button>
+              Peraturan Umum
+            </a>
           </div>
         </div>
 
@@ -261,7 +263,7 @@ function RegisterCountdown({ deadline }) {
 
       {/* Countdown */}
       <Countdown
-        targetDate={deadline}
+        targetDate="2026-10-29T23:59:59+07:00"
         showSeconds={true}
       />
     </motion.section>

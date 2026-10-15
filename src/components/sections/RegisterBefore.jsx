@@ -38,13 +38,13 @@ export default function RegisterBefore({ targetDate }) {
             </p>
 
             <h3 className="font-heading text-lg font-bold uppercase tracking-[0.08em] text-gold-300 md:text-2xl">
-              Register Before
+              Register 
             </h3>
 
             <div className="mx-auto mt-3 h-px w-16 bg-gold-300/50" />
           </div>
 
-          <Countdown targetDate={targetDate} />
+          <Countdown targetDate="2026-10-29T23:59:59+07:00"/>
         </div>
       </motion.div>
     </section>
