@@ -1,4 +1,4 @@
-import { Link, useParams, Navigate, useLocation } from "react-router-dom";
+import { Link, useLocation, useParams, Navigate} from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
@@ -32,18 +32,43 @@ const summaryCards = [
 ];
 
 /* links gform */
+function RegisterButton() {
+  const { pathname } = useLocation();
 
+  const links = {
+    "/game/mobile-legends": "https://forms.gle/pjbJY6RvtEMJyWBKA",
+    "/game/efootball": "https://forms.gle/3nUTZzkd7jb7MEmZ7",
+    "/game/valorant": "https://forms.gle/3yHRo7RMiadUWH3J9",
+    "/game/pubg-mobile": "https://forms.gle/bG5uAmsMfcpx1pmV9",
+  };
+  
+  const targetLink = links[pathname] || "https://forms.gle/pjbJY6RvtEMJyWBKA";
+
+  return (
+    <a
+      href={targetLink}
+      target="_blank"
+      className="group inline-flex items-center gap-2 rounded-full bg-gold-300 px-6 py-3 text-sm font-bold text-[#062B4F] transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-200"
+      >
+        Register Now
+        <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+      </a>
+
+  );
+}
+/*
 const { pathname } = useLocation();
 
 const links = {
-  "/mobile-legends": "https://forms.gle/pjbJY6RvtEMJyWBKA",
-  "/efootball": "https://forms.gle/3nUTZzkd7jb7MEmZ7",
-  "/valorant": "https://forms.gle/3yHRo7RMiadUWH3J9",
-  "/pubg-mobile": "https://forms.gle/bG5uAmsMfcpx1pmV9",
+  "/game/mobile-legends": "https://forms.gle/pjbJY6RvtEMJyWBKA",
+  "/game/efootball": "https://forms.gle/3nUTZzkd7jb7MEmZ7",
+  "/game/valorant": "https://forms.gle/3yHRo7RMiadUWH3J9",
+  "/game/pubg-mobile": "https://forms.gle/bG5uAmsMfcpx1pmV9",
 };
 
-const targetLink = links[pathname]
+const targetLink = links[pathname] || "https://forms.gle/pjbJY6RvtEMJyWBKA";
 
+*/
 /* =====================================================
    BACKGROUND
 ===================================================== */
@@ -168,15 +193,7 @@ function GameHero({ game, Icon }) {
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
-            <a
-              href={targetLink}
-              target="_blank"
-              className="group inline-flex items-center gap-2 rounded-full bg-gold-300 px-6 py-3 text-sm font-bold text-[#062B4F] transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-200"
-            >
-              Register Now
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
-
+            <RegisterButton/>
             <button
               type="button"
               className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white/70 transition-colors hover:border-gold-300/40 hover:text-gold-300"
